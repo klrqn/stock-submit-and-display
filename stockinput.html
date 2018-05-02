@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	</head>
+	<body>
+		<div id="container">
+    	<h1 id="maintitle">Stock Input</h1>
+
+			<div id="newstock">
+				<form action="stockinput.html" method="post">
+					<p>Ticker:</p>
+					<input type="text" name="ticker" id="ticker"/>
+					<p>Name:</p>
+					<input type="text" name="name" id="name"/>
+					<p>Price:</p>
+					<input type="text" name="price" id="price"/>
+					<p>Change:</p>
+					<input type="text" name="change" id="change"/>
+					<p>MarketCap:</p>
+					<input type="text" name="marketcap" id="marketcap"/>
+					<input type='submit' name='submit' value='Submit' id='submit'>
+				</form>
+			</div>
+		</div>
+
+		<article id="posts"></article>
+
+
+
+		<script type="text/javascript" src="stockobj.js"></script>
+	</body>
+</html>
